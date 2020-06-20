@@ -34,3 +34,23 @@ function scrollDownFunction() {
 	} 
 	return false;
 }
+
+// $(function() {
+//     $('#nav').hover(function() {
+//         $(this).addClass('ini')
+//     }, function() {
+//         $(this).removeClass('ini')
+//     });
+// });
+
+var a = 100;
+
+$(document).scroll(function(){
+       if($(this).scrollTop() > 100)
+       {   
+          $('.nav-nav').css({"opacity":"0.8"});
+       } else {
+          $('.nav-nav').css({"opacity":"1"});
+       }
+});
+

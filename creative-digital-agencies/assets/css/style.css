@@ -149,6 +149,7 @@ html, body {
   /* Text style for "Creatives" */
   letter-spacing: 5px;
   margin: 100px auto;
+  padding-top: 100px;
 }
 .header p {
   width: 100%;
@@ -162,6 +163,7 @@ html, body {
   letter-spacing: 20px;
   margin: auto;
   margin-left: 10px;
+  padding-top: 70px;
 }
 .header p span {
   letter-spacing: 23px;
@@ -169,6 +171,11 @@ html, body {
 .header header {
   padding: 1%;
   border-bottom: 1px solid #656565;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  background-color: #222222;
 }
 .header header .nav-panel {
   width: 600px;
@@ -185,7 +192,6 @@ html, body {
 .header header .nav-panel > a:hover {
   text-decoration: none;
   border-bottom: 5px solid #11749e;
-  opacity: 0.8;
 }
 .header header .nav-panel .icon_1 {
   margin-left: 39px;
