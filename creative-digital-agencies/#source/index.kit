@@ -44,13 +44,14 @@
 			<div class="scroll">
 				Scroll Down
 				<div class="scroll__button">
-					<span><img src="assets/img/scroll.png" alt="Scroll Down"></span>
+					<span><a onclick="scrollDownFunction()" id="scrollDown"><img src="assets/img/scroll.png" alt="Scroll Down"></a></span>
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<div class="block-1 text-center">
+		<a onclick="topFunction()" id="myBtn" title="Go to top"><img src="assets/img/scroll-up.png" alt="Scroll Up"></a>
 		<div class="container">
 			<div class="row">
 				<div class="feature-item">
@@ -313,7 +314,7 @@
 						<input type="text" placeholder="Phone">
 					</div>
 				</div>
-				<div class="container-fluid">
+				<div class="container-fluid block-7__forms">
 					<textarea name="message" placeholder="Message"></textarea>
 				</div>
 				<a href="#" type="submit">submit</a>
@@ -339,6 +340,6 @@
 	</footer>
 
 
-	
+	<script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>
